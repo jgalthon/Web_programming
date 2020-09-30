@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms</title>
+    </head>
+    <body>
+        <form section="">
+            <table border="1" align="center" width="400">
+                <th>ABC Hotel Reservation</th>
+            </table>
+            <table border="0" align="center">
+                <tr>
+                    <td>3/25/2019</td>
+                </tr>
+                <tr>
+                    <td colspan="5" height="15"></td>
+                </tr>
+                <tr>
+                    <th>Guest Information</th>
+                    <td colspan="2"></td>
+                    <th>Room Information</th>
+                </tr>
+                <tr>
+                    <td colspan="5" height="8"></td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <lable for="firstName">First Name: </lable>
+                    </th>
+                    <td>
+                        <input type="text" name="firstName" id="" placeholder="Enter First Name">
+                    </td>
+                        <td width="80"></td>
+                        <th style="background-color: lightgray;">
+                            <lable for="noAdultGuests">Number od Adult Guests: </lable>
+                        </th>
+                    <td>
+                        <input type="number" name="noAdultGuests" id="" min="1" placeholder="0">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="lastName">Last Name: </label>
+                    </th>
+                    <th>
+                        <input type="text" name="lastName" id="" placeholder="Enter Last Name">
+                    </th>
+                    <td width="80"></td>
+                    <th style="background-color: lightgray;">
+                        <lable for="noChildGuests">Number of Child Guests: </lable>
+                    </th>
+                    <td>
+                        <input type="number" name="noChildGuests" id="" min="1" placeholder="0">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" height="20"></td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="address1">Address 1: </label>
+                    </th>
+                    <td>
+                        <input type="text" name="address1" id="">
+                    </td>
+                    <td width="80"></td>
+                    <th style="background-color: lightgray;">
+                        <label for="roomType">Room Type: </label>
+                    </th>
+                    <td>
+                        <select name="roomtype" id="">
+                            <option value="regular">Regular</option>
+                            <option value="middleClass">Middle Class</option>
+                            <option value="premium">Premium</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="text" name="address1" id="">
+                    </td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="address2">Address 2: </label>
+                    </th>
+                    <td>
+                        <input type="text" name="address1" id="">
+                    </td>
+                    <td width="80"></td>
+                    <th style="background-color: lightgray;">
+                        <label for="checkInDate">Check-in Date: </label>
+                    </th>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="text" name="address2" id="">
+                    </td>
+                    <td width="80"></td>
+                    <th style="background-color: lightgray;">
+                        <label for="checkInTime">Check-in time: </label>
+                    </th>
+                    <td>
+                        <input type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="city">City: </label>
+                    </th>
+                    <td>
+                        <input type="text" name="city">
+                    </td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="state">State: </label>
+                    </th>
+                    <td>
+                        <input type="text" name="state" id="">
+                    </td>
+                    <td width="80"></td>
+                    <th style="background-color: lightgray;">
+                        <label for="checkOutDate">Check-out Date: </label>
+                    </th>
+                    <td>
+                        <input type="date">
+                    </td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="zip">Zip: </label>
+                    </th>
+                    <td>
+                        <input type="text" name="zip" id="">
+                    </td>
+                    <td width="80"></td>
+                    <th style="background-color: lightgray;">
+                        <label for="checkOutTime">Check-out Time: </label>
+                    </th>
+                    <td>
+                        <input type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5" height="20"></td>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="phone">Phone: </label>
+                    </th>
+                    <td>
+                        <input type="tel" name="phone" id="" placeholder="1-876-***-***">
+                    </td>
+                    <td width="80"></td>
+                    <th style="background-color: lightgray;">
+                        <label for="specialInstruction">Special Instruction: </label>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="background-color: lightgray;">
+                        <label for="email">Email: </label>
+                    </th>
+                    <td>
+                        <input type="email" name="email" id="" placeholder="JohnDoe@mail.com">
+                    </td>
+                    <td colspan="3"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"></td>
+                    <td>
+                        <textarea name="specialInstruction" id="specialInstruction" cols="30" rows="10" width="300"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
